@@ -26,7 +26,7 @@ namespace GuitarShop.Models
             modelBuilder.Entity<Product>().HasData(
                 new Product
                 {
-                    ProductID = 1, 
+                    ProductID = 1,
                     CategoryID = 1,
                     Code = "strat",
                     Name = "Fender Stratocaster",

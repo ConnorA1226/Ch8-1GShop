@@ -29,8 +29,10 @@ namespace GuitarShop.Models
 
         public decimal DiscountPrice => Price - DiscountAmount;
 
-        public string Slug {
-            get {
+        public string Slug
+        {
+            get
+            {
                 if (Name == null)
                     return "";
                 else
